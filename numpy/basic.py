@@ -60,6 +60,21 @@ print(array)
 #delete
 #np.delete(array, index, axis=None/rows/cols)
 
+
+#stacking: Arrangement of array
+#np.hstack((array1, array2)) : Horizontal stacking
+#np.vstack((array1, array2)) : Vertical stacking
+#np.dstack((array1, array2)) : Depth stacking
+
+#spliting: Diving the array 
+#np.split(array , value)        : divide the array into 'value' equal parts
+#np.array_split(array, value)   : Split the array into unqual parts 
+#np.vsplit(array, col_value)    : Split via coln Equal split
+#np.hsplit(array, col_value)    : Split via Rows Equal Split 
+#np.dslpit(array, depth)        : Split via depth (3d) Equal Split
+
+
+
 #types of array
 #1d array (vector) : only 1 rows 
 array1d=np.array([1,2])
