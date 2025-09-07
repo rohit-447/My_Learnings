@@ -6,6 +6,9 @@ print(array)
 #properties
 #.ndim: find the dimension of array
 #.shape : find the shape of array
+#.zeroes(shape) : create numpy with all values as 0
+#.array : used to convert he array to the list
+#isinstance(a, np.ndarray) : to know whether it is array or not a-> array, np.ndarray is the base class for NumPy arrays
 
 #types of array
 #1d array (vector) : only 1 rows 
@@ -32,3 +35,8 @@ ndarray=np.zeros((3,2,3,2))
 print(f'nd Array: {ndarray}')
 print(f'Dimension of array is : {ndarray.ndim}')
 print(f'Shape of array is : {ndarray.shape}')
+
+#conver the list to array
+arr=[1,2,3]
+arr=np.array(arr)
+print(arr)
