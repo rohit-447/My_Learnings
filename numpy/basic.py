@@ -8,6 +8,8 @@ print(array)
 #.shape : find the shape of array
 #.zeroes(shape) : create numpy with all values as 0
 #.array : used to convert he array to the list
+#.dtype : used to know about the datatype of an array
+#.astype : used to change the datatype of an array
 #isinstance(a, np.ndarray) : to know whether it is array or not a-> array, np.ndarray is the base class for NumPy arrays
 
 #types of array
@@ -40,3 +42,4 @@ print(f'Shape of array is : {ndarray.shape}')
 arr=[1,2,3]
 arr=np.array(arr)
 print(arr)
+print(f'Datatype of array : {arr.dtype}')
