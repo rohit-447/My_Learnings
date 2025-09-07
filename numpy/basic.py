@@ -41,6 +41,14 @@ print(array)
 #filtering :Boolean Masking
 #array[array condition]
 
+#reshaping
+#array.reshape( rows, cols) : Only when the dimensions matches
+#it doesnot copy the value it return the view
+
+#flatten : to convert the multidimensional array to 1 d
+#array.ravel()      : return the view 
+#array.faltten()    : return the copy
+
 #types of array
 #1d array (vector) : only 1 rows 
 array1d=np.array([1,2])
