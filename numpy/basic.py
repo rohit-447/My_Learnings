@@ -49,17 +49,14 @@ print(array)
 #array.ravel()      : return the view 
 #array.faltten()    : return the copy
 
+#operations in array
 #axis=None : in 1d /Axis=0->rows /Axis=1->cols
-
 #insert
 #np.insert( array, index, value, axis=None/rows/cols)
-
 #append : insert array value at end
 #np.array(array, value, axis=None/rows/cols)
-
 #concat : Adding to array
 #np.concatenate((array1, array2))
-
 #delete
 #np.delete(array, index, axis=None/rows/cols)
 
