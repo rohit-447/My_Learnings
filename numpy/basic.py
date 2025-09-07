@@ -11,6 +11,15 @@ print(array)
 #.dtype : used to know about the datatype of an array
 #.astype : used to change the datatype of an array
 #isinstance(a, np.ndarray) : to know whether it is array or not a-> array, np.ndarray is the base class for NumPy arrays
+#aggregation function
+#np.mean(array)   : calculate the mean of array
+#np.std(array)    : Gives the Standard Deveation 
+#np.var(array)    : Gives the Varience of array
+#np.sum(array)    : Calculate the sum of array
+#np.max(array)    : Max of the array
+#np.min(array)    : Min of array
+#np.argmax(array) : Index of max value
+#np.argmin(array) : Index of min Value
 
 #types of array
 #1d array (vector) : only 1 rows 
