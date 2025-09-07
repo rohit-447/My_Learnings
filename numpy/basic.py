@@ -11,6 +11,7 @@ print(array)
 #.dtype : used to know about the datatype of an array
 #.astype : used to change the datatype of an array
 #isinstance(a, np.ndarray) : to know whether it is array or not a-> array, np.ndarray is the base class for NumPy arrays
+
 #aggregation function
 #np.mean(array)   : calculate the mean of array
 #np.std(array)    : Gives the Standard Deveation 
@@ -20,6 +21,25 @@ print(array)
 #np.min(array)    : Min of array
 #np.argmax(array) : Index of max value
 #np.argmin(array) : Index of min Value
+
+#indexing
+#array[index_val        : 1d Array
+#array[row][col]        : 2d Array
+#array[depth][row][col] : 3d Array 
+#nd array               : similar as nesting index
+
+#fancy indexing  : Selecting multiple index at once
+#array([list of all index values]) : We pass the list here
+
+#Slicing
+#array[start: stop: step] : by default step value is 1 and it goes upto stop-1
+#array[::-1]              : Reverse an array 
+#array[::step]            : get all element and by step value
+#2d array                 : array[start_row:stop_row:step_row, start_col:stop_col:step_col]
+#3d array                 : array[start_depth:stop_depth:step_depth, start_row:stop_row:step_row, start_col:stop_col:step_col]
+
+#filtering :Boolean Masking
+#array[array condition]
 
 #types of array
 #1d array (vector) : only 1 rows 
