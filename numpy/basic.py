@@ -74,6 +74,12 @@ print(array)
 #np.dslpit(array, depth)        : Split via depth (3d) Equal Split
 
 
+#value operation : default vlaue of replament is 0
+#np.isnan(array)                                    : return bolloan value by comparing each values of array
+#np.nan_to_num(array, nan=value)                    : Replace the nan by value
+#np.isinf(array)                                    : Return bolloan value by comparing each values of array
+#np.nan_to_num(array, inf=value, neginf=value)      : Replace the positive and negitive inf by value
+
 
 #types of array
 #1d array (vector) : only 1 rows 
