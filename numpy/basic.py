@@ -83,6 +83,29 @@ print(array)
 #Vectorisation : Perfrom operations element wise
 #broadcasting : perform mathematical operations in numpy wihtout any loops
 
+#Advance topics
+#matrix multiplication :Only where there is shape match
+#array.dot(array1, array2)
+#array.matmul(array1, array2)
+
+#Transpose
+#array.T
+
+#Inverse
+#np.linalg.inv(array)
+
+#Determinant
+#np.linalg.det(array)
+
+#Eigenvalues and Eigenvectors
+#An eigenvector is a direction that doesn't change under a transformation,
+#and the eigenvalue tells you how much it stretches or shrinks.
+#eigenvalues, eigenvectors = np.linalg.eig(Array)
+
+#Norm
+#norm is a way to measure the size or length of a vector or matrix — like how long or bit it is
+#np.linalg.norm(Array)
+
 
 #types of array
 #1d array (vector) : only 1 rows 
