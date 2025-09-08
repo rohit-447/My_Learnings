@@ -80,6 +80,9 @@ print(array)
 #np.isinf(array)                                    : Return bolloan value by comparing each values of array
 #np.nan_to_num(array, inf=value, neginf=value)      : Replace the positive and negitive inf by value
 
+#Vectorisation : Perfrom operations element wise
+#broadcasting : perform mathematical operations in numpy wihtout any loops
+
 
 #types of array
 #1d array (vector) : only 1 rows 
