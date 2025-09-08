@@ -106,6 +106,15 @@ print(array)
 #norm is a way to measure the size or length of a vector or matrix — like how long or bit it is
 #np.linalg.norm(Array)
 
+#np.random.seed()                       : used to fix the random no for each runtime
+#np.linesapce(start, stop , num )       :used to create a list of evenly spaced numbers over a specific range.
+#start: where the numbers begin, stop: where the numbers end ,num: how many numbers you want
+#np.random.randint(start, stop, num)    :used to create  random numbers over a specific range.
+#np.random.rand(shape)                  :used to create  of  numbers of specific shape.
+#np.random.choice(array, size)          :used to choose the random no.
+#np.randm.shuffle(array)                :used to suffle the raay values randomly
+
+
 
 #types of array
 #1d array (vector) : only 1 rows 
