@@ -1,4 +1,5 @@
 .venv
 test.py
+*/Dataset/IPL Matches 2008-2020.csv
+*/Dataset/BX-Books.csv
 **/.ipynb_checkpoints
-ml\Dataset\amazon.csv
